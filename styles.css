@@ -1,0 +1,134 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+header{
+    background-color: #222;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    height: 100px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+}
+
+.logotipo{
+    display: flex;
+    padding: 15px;
+}
+
+.logoText{
+    font-size: 24px;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.logo_pizza{
+    color: #39B24A;
+}
+
+.logo_y{
+    color: white ;
+}
+
+.logo_front{
+    color: #FC200C;
+}
+
+.main_menu{
+    color: #F3F3F3;
+    display: flex;
+    font-size: 16px;
+    list-style: none;
+    font-weight: 400;
+}
+
+.item_mainMenu{
+    padding: 10px;
+}
+
+main{
+    background-color: #F3F3F3;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 35px;
+    justify-content: center;
+}
+section{
+    height: 350px;
+    width: 490px;
+    border-radius: 5px;
+}
+
+.delivery{
+background-image: url("/assets/delivery.jpg");
+background-repeat: no-repeat;
+padding: 20px;
+margin-right: 5px;
+margin-bottom: 5px;
+}
+
+.topFive{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    background-color: white;
+    padding: 20px;
+    
+}
+
+
+.podio_container{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+
+.podio_list{
+    display: flex;
+    flex-direction: column;
+    padding: 20px 25px;
+}
+
+h3{
+    padding: 10px 0px;
+}
+
+.item_list{
+    padding: 7px 0px;
+}
+
+.img_podio{
+    margin-left: 60px;
+    height: 129px;
+    width: 92px;
+}
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    background-color: #222;
+    height: 150px;
+    padding: 20px;
+}
+
+.footer_menu{
+    color: #F3F3F3;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-size: 16px;
+    list-style: none;
+    font-weight: 400;
+}
+
+
